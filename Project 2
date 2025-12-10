@@ -1,0 +1,20 @@
+echo ======================= >> "hasil.txt"
+echo network diagnostic >> "hasil.txt"
+echo ======================= >> "hasil.txt"
+
+echo --konfigurasi IP-- >> "hasil.txt"
+ipconfig /all >> "hasil.txt"
+
+echo --koneksi internet-- >> "hasil.txt"
+ping 8.8.8.8 >> "hasil.txt"
+
+echo --cek koneksi-- >> "hasil.txt"
+ping google.com >> "hasil.txt"
+
+echo --trace route-- >> "hasil.txt"
+tracert google.com >> "hasil.txt"
+
+echo --koneksi aktif-- >> "hasil.txt"
+netstat -an >> "hasil.txt"
+
+pause
