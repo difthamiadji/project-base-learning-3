@@ -1,0 +1,29 @@
+C:\Users\dita> D:
+D:\> mkdir myfiles
+D:\> cd myfiles
+D:\myfiles> mkdir documents pictures videos music tugaskuliah
+D:\myfiles> cd tugaskuliah
+D:\myfiles\tugaskuliah> mkdir kemaritiman kewarganegaraan bingg pw logma 
+D:\myfiles\tugaskuliah> cd ..
+D:\myfiles> move D:\myfiles\dokumen.txt
+D:\myfiles> move D:\myfiles\photo.jpg
+D:\myfiles> move D:\myfiles\music.mp3
+D:\myfiles> move D:\myfiles\video.mp4
+D:\myfiles> cd tugaskuliah
+D:\myfiles\tugaskuliah> move D:\myfiles\kemaritiman.txt
+D:\myfiles\tugaskuliah> move D:\myfiles\kewarganegaraan.txt
+D:\myfiles\tugaskuliah> move D:\myfiles\pw.txt
+D:\myfiles\tugaskuliah>move D:\myfiles\bingg.txt
+D:\myfiles\tugaskuliah>move D:\myfiles\logma.txt
+D:\myfiles\tugaskuliah> cd ..
+D:\myfiles> tree
+-documents
+-music
+-pictures
+-tugaskuliah
+   -bingg
+   -kemaritiman
+   -kewarganegaraan
+   -logma
+   -pw 
+-videos
