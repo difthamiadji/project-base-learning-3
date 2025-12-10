@@ -1,0 +1,7 @@
+@echo off
+echo === Mulai Backup ===
+mkdir "C:\Backup\$date$"
+xcopy "D:\Myfiles\TK" "C:\Backup\$date$" /E /I /Y
+echo === Verifikasi Folder ===
+dir "C:\Backup|$date$"
+pause     (project 3)
