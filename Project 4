@@ -1,0 +1,5 @@
+C:\Windows\system32> D:
+D:\> mkdir Healthcek
+D:\> systeminfo > D:\Healthcek\Systeminfo.txt
+D:\> chkdsk > D:\Healthcek\Checkdisk.txy
+D:\> tasklist > D:\Healthcek\Tasklist.txt
