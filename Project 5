@@ -1,0 +1,4 @@
+C:\Users\dita> echo @echo off > startup.bat
+C:\Users\dita> echo color 0A >> startup.bat
+C:\Users\dita> echo prompt $P$G >> startup.bat
+C:\Users\dita> .\startup.bat
